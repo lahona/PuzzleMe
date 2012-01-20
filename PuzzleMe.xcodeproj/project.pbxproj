@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B889240514C9C98B00F06D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B889240414C9C98B00F06D08 /* UIKit.framework */; };
+		B889240714C9C98B00F06D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B889240614C9C98B00F06D08 /* Foundation.framework */; };
+		B889240914C9C98B00F06D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B889240814C9C98B00F06D08 /* CoreGraphics.framework */; };
+		B889240F14C9C98B00F06D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B889240D14C9C98B00F06D08 /* InfoPlist.strings */; };
+		B889241114C9C98B00F06D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B889241014C9C98B00F06D08 /* main.m */; };
+		B889241514C9C98B00F06D08 /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B889241414C9C98B00F06D08 /* PMAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B889240014C9C98B00F06D08 /* PuzzleMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889240414C9C98B00F06D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B889240614C9C98B00F06D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B889240814C9C98B00F06D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B889240C14C9C98B00F06D08 /* PuzzleMe-Info.plist */ = {isa = PBXFileReference; path = "PuzzleMe-Info.plist"; sourceTree = "<group>"; };
+		B889240E14C9C98B00F06D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B889241014C9C98B00F06D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B889241214C9C98B00F06D08 /* PuzzleMe-Prefix.pch */ = {isa = PBXFileReference; path = "PuzzleMe-Prefix.pch"; sourceTree = "<group>"; };
+		B889241314C9C98B00F06D08 /* PMAppDelegate.h */ = {isa = PBXFileReference; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		B889241414C9C98B00F06D08 /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88923FD14C9C98B00F06D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889240514C9C98B00F06D08 /* UIKit.framework in Frameworks */,
+				B889240714C9C98B00F06D08 /* Foundation.framework in Frameworks */,
+				B889240914C9C98B00F06D08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88923F514C9C98B00F06D08 = {
+			isa = PBXGroup;
+			children = (
+				B889240A14C9C98B00F06D08 /* PuzzleMe */,
+				B889240314C9C98B00F06D08 /* Frameworks */,
+				B889240114C9C98B00F06D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B889240114C9C98B00F06D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B889240014C9C98B00F06D08 /* PuzzleMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B889240314C9C98B00F06D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B889240414C9C98B00F06D08 /* UIKit.framework */,
+				B889240614C9C98B00F06D08 /* Foundation.framework */,
+				B889240814C9C98B00F06D08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B889240A14C9C98B00F06D08 /* PuzzleMe */ = {
+			isa = PBXGroup;
+			children = (
+				B889241314C9C98B00F06D08 /* PMAppDelegate.h */,
+				B889241414C9C98B00F06D08 /* PMAppDelegate.m */,
+				B889240B14C9C98B00F06D08 /* Supporting Files */,
+			);
+			path = PuzzleMe;
+			sourceTree = "<group>";
+		};
+		B889240B14C9C98B00F06D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B889240C14C9C98B00F06D08 /* PuzzleMe-Info.plist */,
+				B889240D14C9C98B00F06D08 /* InfoPlist.strings */,
+				B889241014C9C98B00F06D08 /* main.m */,
+				B889241214C9C98B00F06D08 /* PuzzleMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88923FF14C9C98B00F06D08 /* PuzzleMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889241814C9C98B00F06D08 /* Build configuration list for PBXNativeTarget "PuzzleMe" */;
+			buildPhases = (
+				B88923FC14C9C98B00F06D08 /* Sources */,
+				B88923FD14C9C98B00F06D08 /* Frameworks */,
+				B88923FE14C9C98B00F06D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleMe;
+			productName = PuzzleMe;
+			productReference = B889240014C9C98B00F06D08 /* PuzzleMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88923F714C9C98B00F06D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = INSA;
+			};
+			buildConfigurationList = B88923FA14C9C98B00F06D08 /* Build configuration list for PBXProject "PuzzleMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B88923F514C9C98B00F06D08;
+			productRefGroup = B889240114C9C98B00F06D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88923FF14C9C98B00F06D08 /* PuzzleMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88923FE14C9C98B00F06D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889240F14C9C98B00F06D08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88923FC14C9C98B00F06D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889241114C9C98B00F06D08 /* main.m in Sources */,
+				B889241514C9C98B00F06D08 /* PMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B889240D14C9C98B00F06D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B889240E14C9C98B00F06D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B889241614C9C98B00F06D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B889241714C9C98B00F06D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B889241914C9C98B00F06D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PuzzleMe/PuzzleMe-Prefix.pch";
+				INFOPLIST_FILE = "PuzzleMe/PuzzleMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B889241A14C9C98B00F06D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PuzzleMe/PuzzleMe-Prefix.pch";
+				INFOPLIST_FILE = "PuzzleMe/PuzzleMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88923FA14C9C98B00F06D08 /* Build configuration list for PBXProject "PuzzleMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889241614C9C98B00F06D08 /* Debug */,
+				B889241714C9C98B00F06D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889241814C9C98B00F06D08 /* Build configuration list for PBXNativeTarget "PuzzleMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889241914C9C98B00F06D08 /* Debug */,
+				B889241A14C9C98B00F06D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B88923F714C9C98B00F06D08 /* Project object */;
+}
